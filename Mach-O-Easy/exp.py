@@ -1,0 +1,26 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+__Auther__ = 'M4x'
+
+import string
+dic = string.printable
+
+key = [0x44, 0xF6, 0xF5, 0x57, 0xF5, 0xC6, 0x96, 0xB6, 0x56, 0xF5, 0x14, 0x25, 0xD4, 0xF5, 0x96, 0xE6, 0x37, 0x47, 0x27, 0x57, 0x36, 0x47, 0x96, 3, 0xE6, 0xF3, 0xA3, 0x92, 0]
+#  print len(key)
+
+def func(c):
+    c = ord(c)
+    for i in xrange(4):
+        c *= 2
+        if (c & 0x100):
+            c |= 1
+
+    return (c & 0xff)
+
+ans = ""
+for i in range(29):
+    for j in dic:
+        if func(j) == key[i]:
+            ans += j
+            print ans
+            break
