@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+__Auther__ = "M4x"
+
 import pdb
 from z3 import *
 array = [164,25, 4, 130, 126, 158, 91, 199, 173, 252, 239, 143, 150, 
