@@ -1,0 +1,4 @@
+cat answer| grep -oP '\d+'| ./baby_mips_patched
+
+102   54    49    53    57   102    48    100
+54   100    99    52    53   56     102   57
