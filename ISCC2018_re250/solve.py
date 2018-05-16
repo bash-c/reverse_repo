@@ -39,7 +39,7 @@ f4 = lambda x1, x2, x3, x4: (x1 * m[12] + x2 * m[13] + x3 * m[14] + x4 * m[15]) 
 
 crypto = '''lUFBuT7hADvItXEGn7KgTEjqw8U5VQUq'''
 key = decodeBase64(crypto)
-#  print key
+print key
 key = [f0(key[i: i + 2]) for i in range(0, len(key), 2)]
 #  key = [key[i: i + 4] for i in range(0, len(key), 4)]
 #  print key
