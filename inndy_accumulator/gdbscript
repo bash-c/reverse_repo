@@ -1,0 +1,8 @@
+set *((long *)0x7fffffffdc20)=0x8c1182d75bee3cc3
+set *((long *)0x7fffffffdc28)=0xefeb29d2aeed045e
+set *((long *)0x7fffffffdc30)=0xe70fbef1f57aaf6e
+set *((long *)0x7fffffffdc38)=0x6581a623cc27ee3f
+set *((long *)0x7fffffffdc40)=0x1adbb9224940e552
+set *((long *)0x7fffffffdc48)=0xc70d48087df26b6c
+set *((long *)0x7fffffffdc50)=0x352b20e269268c3b
+set *((long *)0x7fffffffdc58)=0x29befa216e5fc2a8
