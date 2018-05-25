@@ -23,7 +23,7 @@ if __name__ == "__main__":
         Count 185559
 
         '''
-        cmd = "echo %s| /home/m4x/pin-3.6-97554-g31f0a167d-gcc-linux/pin -t ./myInscount.so -- ./crackme" %(pwd)
+        cmd = "echo %s| /home/m4x/pin-3.6-gcc-linux/pin -t ./myInscount.so -- ./crackme" %(pwd)
         #  print cmd
         #  print commands.getstatusoutput(cmd)[1]
         res = int(commands.getstatusoutput(cmd)[1].split("Count")[1])
