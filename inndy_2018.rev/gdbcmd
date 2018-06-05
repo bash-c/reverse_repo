@@ -4,8 +4,8 @@ r
 #set args
 set $rdi=2018
 #dumpargs --force
-set *((long *)0x7fffffffe332)=0x0101010101010101
-set *((long *)0x7fffffffe34d)=0x0101010101010101
+set *((long *)0x7fffffffe3bc)=0x0101010101010101
+set *((long *)0x7fffffffe3eb)=0x0101010101010101
 c
 
 # zdump /etc/localtime
