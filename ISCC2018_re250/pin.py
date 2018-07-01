@@ -12,7 +12,7 @@ def getLen():
     last = 0
     for i in xrange(50):
         pin = Popen([pinPath, '-t', './myInscount1.so', '--', './re'], stdin = PIPE, stdout = PIPE)
-        pin.stdin.write('_' * i)
+        pin.stdin.write('_' * i + '\n')
         out, err = pin.communicate()
         now = int(out.split('Count')[1])
         delta = now - last
