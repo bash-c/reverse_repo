@@ -1,0 +1,85 @@
+set follow-fork-mode parent
+b *0x401AE4
+r < ./payload
+
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+x/3s $rsi
+n
+set $rax=0
+c
+
