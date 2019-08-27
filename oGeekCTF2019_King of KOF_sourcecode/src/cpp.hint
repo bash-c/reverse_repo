@@ -1,0 +1,2 @@
+#define KOF97_API __declspec(dllexport)
+#define KOF97_API __declspec(dllimport)

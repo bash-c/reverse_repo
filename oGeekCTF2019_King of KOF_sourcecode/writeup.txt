@@ -1,0 +1,12 @@
+NSIS 是在某次项目中接触到的，之前一直好奇安装包的制作方式，学习了之后觉得有点意思，就有了这道题目。
+出题的时间比较仓促，因此就没有设置很多考点，中间也更新了附件，给大佬们带来了不好的游戏体验，道歉orz。
+
+整个逻辑分两部分，nsi脚本中存在一个简单的凯撒密码，KOF97.dll中存在一个tea加密，KOF97.dll加了一个变种的UPX压缩壳，整个逻辑没有很难的考点，逆清楚逻辑后解出flag即可。
+
+至于怎么知道安装包和 NSIS 有关，一是经验，二是搜索常见的安装包类型，三其实通过file命令就可以看出来
+M4x@m4x-PC ~/Desktop/KoF97/give_to_player
+λ file Setup.exe
+Setup.exe: PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive
+明白了于NSIS有关后，找到相应的反编译工具即可。
+
+或者从选手提交的writeup来看，还有硬核大佬在没听说过NSIS的情况下强行逆向，最后得到了flag，tql。
