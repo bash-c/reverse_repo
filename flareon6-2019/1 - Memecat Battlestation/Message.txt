@@ -1,0 +1,7 @@
+Welcome to the Sixth Flare-On Challenge! 
+
+This is a simple game. Reverse engineer it to figure out what "weapon codes" you need to enter to defeat each of the two enemies and the victory screen will reveal the flag. Enter the flag here on this site to score and move on to the next level.
+
+* This challenge is written in .NET. If you don't already have a favorite .NET reverse engineering tool I recommend dnSpy
+
+** If you already solved the full version of this game at our booth at BlackHat  or the subsequent release on twitter, congratulations, enter the flag from the victory screen now to bypass this level.

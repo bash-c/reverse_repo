@@ -1,0 +1,6 @@
+0:000> da 00cffe54
+00cffe54  "I never broke the encoding: I_a_"
+00cffe74  "M_t_h_e_e_n_C_o_D_i_n_g@flare-on"
+00cffe94  ".com"
+
+set values when debugging

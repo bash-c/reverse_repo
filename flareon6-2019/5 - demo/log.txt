@@ -1,0 +1,8 @@
+1. 搜索 MZ21PE 无结果
+2. 改为 MZ22PE 发现任能运行，搜索MZ22PE, MZ20PE发现是Crinkler壳
+3. 脱壳教程：https://reverseengineering.stackexchange.com/questions/13912/trying-to-decompress-a-hello-world-program-using-ollydbg-v201
+
+
+https://www.csdndoc.com/article/9214902
+
+flag (0, 0, [150, 160))
